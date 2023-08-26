@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main container-fluid">
+	<main id="primary" class="site-main container-fluid m-0 p-3">
 		<?php
 		while ( have_posts() ) :
 			the_post();
