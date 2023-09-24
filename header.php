@@ -25,11 +25,10 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'blog' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header container-fluid p-3">
 		<!-- <div class="site-branding">
 			<?php the_custom_logo(); ?>
 		</div> -->
-
 		<nav id="site-navigation">
 		<?php if(is_active_sidebar('menu_de_navegacion')) :
 					dynamic_sidebar('menu_de_navegacion'); endif;?>
