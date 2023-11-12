@@ -20,12 +20,12 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('m-0'); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'blog' ); ?></a>
 
-	<header id="masthead" class="site-header container-fluid p-3">
+	<header id="masthead" class="site-header container">
 		<!-- <div class="site-branding">
 			<?php the_custom_logo(); ?>
 		</div> -->
