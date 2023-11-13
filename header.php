@@ -25,8 +25,8 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'blog' ); ?></a>
 
-	<header id="masthead" class="site-header container-fluid">
-		<div class="container text-center p-2">
+	<header id="masthead" class="site-header container-fluid p-2">
+		<div class="container text-center">
 			<!-- <div class="site-branding">
 			<?php the_custom_logo(); ?>
 			</div> -->

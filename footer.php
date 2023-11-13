@@ -13,11 +13,10 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="container p-1">
-			<div class="row text-center p-3">
-				<hr class="linea-footer">
-				<p><?php the_field('nombre_de_autor');?></p>
-				<div class="d-flex justify-content-center">Foto de <a class="ms-1 me-1 link-atribucion text-decoration-none" href="https://unsplash.com/es/@ilyapavlov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ilya Pavlov</a> en <a class="ms-1 me-1 link-atribucion text-decoration-none" href="https://unsplash.com/es/fotos/monitor-que-muestra-programacion-java-OqtafYT5kTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div>
-				
+			<div class="row text-center p-3 m-0">
+				<p>Esteban Álvarez</p>
+				<hr class="linea-footer p-0">
+				<span class="d-flex justify-content-center">Foto de <a class="ms-1 me-1 link-atribucion text-decoration-none" href="https://unsplash.com/es/@ilyapavlov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ilya Pavlov</a> en <a class="ms-1 me-1 link-atribucion text-decoration-none" href="https://unsplash.com/es/fotos/monitor-que-muestra-programacion-java-OqtafYT5kTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
 			</div>
 		</div>
 	</footer><!-- #colophon -->
