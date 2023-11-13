@@ -16,34 +16,10 @@
 			<p class="mt-3"><?php echo the_field('');?><?php the_field('mensaje_de_bienvenida');?></p>
 		</div> 
     </div>
-
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'blog' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'blog' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php blog_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	<div class="row border rounded p-3 mb-5 fondo-entrada">
+		<div class="col-12">
+			<?php the_content();?>
+		</div>
+	</div>
+	
 </article><!-- #post-<?php the_ID(); ?> -->
