@@ -5,12 +5,9 @@
     --color-terciario: #F25764;
     --color-fondo: #89888C; 
 }
-/* *{border: 1px solid black;} */
 body {
     font-family: 'Rubik', sans-serif;
     background-color: var(--color-fondo)
-    /*https://unsplash.com/es/fotos/monitor-que-muestra-programacion-java-OqtafYT5kTw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash*/
-   /* Foto de <a href="https://unsplash.com/es/@ilyapavlov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ilya Pavlov</a> en <a href="https://unsplash.com/es/fotos/monitor-que-muestra-programacion-java-OqtafYT5kTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
 }
 .enlace-blog {
     color: var(--color-texto);
@@ -72,4 +69,14 @@ header {
 }
 .card-enlace:hover {
     color: var(--color-principal);
+}
+.link-atribucion {
+    color: var(--color-secundario);
+    transition: .5s;
+}
+.link-atribucion:visited {
+    color: var(--color-secundario);
+}
+.link-atribucion:hover {
+    color: var(--color-fondo);
 }
