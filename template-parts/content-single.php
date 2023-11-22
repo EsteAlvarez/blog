@@ -21,5 +21,4 @@
 			<?php the_content();?>
 		</div>
 	</div>
-	
 </article><!-- #post-<?php the_ID(); ?> -->
