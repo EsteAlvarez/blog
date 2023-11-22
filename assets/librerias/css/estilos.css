@@ -5,7 +5,20 @@
     --color-terciario: #F25764;
     --color-fondo: #89888C; 
 }
-body {font-family: 'Rubik', sans-serif;background-color: var(--color-fondo)}
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--color-fondo);
+    animation: 1.5s opacidad;
+}
+@keyframes opacidad {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
 .blog-nav {
     font-size: 250%;
     color: var(--color-texto);
