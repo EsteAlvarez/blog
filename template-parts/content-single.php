@@ -16,8 +16,8 @@
 			<p class="mt-3"><?php echo the_field('');?><?php the_field('mensaje_de_bienvenida');?></p>
 		</div> 
     </div>
-	<div class="row border rounded p-md-0 p-2 mb-5 fondo-entrada">
-		<div class="col-12">
+	<div class="row border rounded p-md-0 p-2 mb-5">
+		<div class="col-12 fondo-entrada">
 			<?php the_content();?>
 		</div>
 	</div>
