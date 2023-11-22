@@ -31,8 +31,10 @@
 			<?php the_custom_logo(); ?>
 			</div> -->
 			<nav id="site-navigation">
-			<?php if(is_active_sidebar('menu_de_navegacion')) :
-						dynamic_sidebar('menu_de_navegacion'); endif;?>
+			<?php
+				$home_url = home_url();
+				echo '<a href="' . esc_url($home_url) . '">Ir a la página de inicio</a>';
+			?>
 			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->
