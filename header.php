@@ -33,7 +33,7 @@
 			<nav id="site-navigation">
 			<?php
 				$home_url = home_url();
-				echo '<a href="' . esc_url($home_url) . '">Blog</a>';
+				echo '<a class="blog-nav" href="' . esc_url($home_url) . '">Blog</a>';
 			?>
 			</nav><!-- #site-navigation -->
 		</div>

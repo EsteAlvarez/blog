@@ -6,6 +6,11 @@
     --color-fondo: #89888C; 
 }
 body {font-family: 'Rubik', sans-serif;background-color: var(--color-fondo)}
+.blog-nav {
+    font-size: 400%;
+    color: var(--color-texto);
+    text-decoration: none;
+}
 .enlace-blog {color: var(--color-texto);transition: .5s;}
 .enlace-blog:visited {color: var(--color-texto);}
 .enlace-blog:hover {color: var(--color-fondo);}
