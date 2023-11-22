@@ -20,7 +20,7 @@ body {
     }
 }
 .blog-nav {
-    font-size: 250%;
+    font-size: 150%;
     color: var(--color-texto);
     text-decoration: none;
     transition: .5s;
